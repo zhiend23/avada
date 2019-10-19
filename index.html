@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>homework</title>
+	<link rel="stylesheet" type="text/css" href="prj.css">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+</head>
+<body>
+	<!-- nav bar begine -->
+	<div class="container">
+		<nav class="clearfix">
+			<div class="left">
+				<h2 style=" font-size: 37px; margin: 20px;">
+					Avad<span style="color: green;">a  :</span>    
+				</h2>
+			</div>
+			<ul class="nav-menu clearfix right ">
+				<li class="left">
+					<a href="#">Home</a>
+				</li>
+				<li class="left ">
+					<a href="#">Features</a>
+				</li>
+				<li class="left ">
+					<a href="#">Shotcodes</a>
+				</li>
+				<li class="left">
+					<a href="#">Page</a>
+				</li>
+				<li class="left ">
+					<a class="active" href="#">Portfolio</a>
+				</li>
+				<li class="left ">
+					<a href="#">Blog</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- nav bar end!!! -->
+
+		<!-- slider begine -->
+		<div class="w3-content w3-display-container">
+  			<a href="#"><img class="mySlides" src="wb1.jpg" style="width:980px; height:300px; "></a>
+  			<a href="#"><img class="mySlides" src="wb2.jpg" style="width:980px; height:300px; "></a>
+  			<a href="#"><img class="mySlides" src="wb3.jpg" style="width:980px; height:300px; "></a>
+			
+			 <button class="w3-button w3-black w3-display-left " onclick="plusDivs(-1)">&#10094;</button>
+  			<button class="w3-button w3-black w3-display-right " onclick="plusDivs(1)">&#10095;</button>
+		</div>
+
+	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+  		showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+ 		var i;
+  	 	var x = document.getElementsByClassName("mySlides");
+  	if (n > x.length) {slideIndex = 1}
+  	if (n < 1) {slideIndex = x.length}
+  	for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+	}
+	</script>
+
+	<!-- slifer end!!! -->
+
+
+	<!-- center begine -->
+
+	<div class="center clearfix">
+		<div class="left">
+			<i class='fas fa-ethernet' style='font-size:36px'></i>
+			<a href="#"><h3>Responsive Designe</h3></a>
+			<p>You can use Pseudo element to put the icons with text. In addition I would suggest you to choose FontAwesome Library to choose icons</p>
+		</div>
+		<div class="left">
+			<i class='fas fa-desktop' style='font-size:36px'></i>
+			<a href="#"><h3>Awesome Slider Designe</h3></a>
+			<p>You can use Pseudo element to put the icons with text. In addition I would suggest you to choose FontAwesome Library to choose icons</p>
+		</div>
+		<div class="left">
+			<i class='fas fa-campground' style='font-size:36px'></i>
+			<a href="#"><h3>Loaded With options</h3></a>
+			<p>You can use Pseudo element to put the icons with text. In addition I would suggest you to choose FontAwesome Library to choose icons</p>
+		</div>
+	</div>
+
+	<!-- center end!!! -->
+
+
+<!-- RW begine -->
+	<div style="margin-bottom: 40px">
+		<div class="rw clearfix">
+			<p style="font-size: 20px" class="left">
+				Recent Works
+			</p>
+			
+			<div>
+				<hr>
+				<hr>
+			</div>
+			
+		</div>
+
+		<div class="rwimg">
+
+				<a href="#">
+					<img src="rw1.png">
+				</a>
+				<a href="#">
+					<img src="rw2.jpg">
+				</a>
+				<a href="#">
+					<img src="rw3.jpg">
+				</a>
+				<a href="#">
+					<img src="rw4.jpg">
+				</a>
+
+		</div>	
+
+	</div>
+		<!-- RW end!!! -->
+
+
+		<!-- description begine -->
+
+
+		<div class="dscp-clear clearfix">
+			
+				<div class="dc-first left">
+					<p>
+						Why Choose Us
+					</p>
+					<ul>
+						<li>
+							<a href="#">dots at the bottom hand scripting! It's trulyof each slide</a>
+						</li>
+						<li>
+							<a href="#">which slide the user hand scripting! It's trulyis currently</a>
+						</li>
+						<li>
+							<a href="#">beautiful image sliders hand scripting! It's truly completely </a>
+						</li>
+						<li>
+							<a href="#">A slider probably has hand scripting! It's truly a little  jump</a>
+						</li>
+						<li>
+							<a href="#">links that jump to the hand scripting! It's truly correct slide:</a>
+						</li>
+						<li>
+							<a href="#">specific slide, so let's hand scripting! It's truly semantically </a>
+						</li> 
+					</ul>
+				</div>
+
+				<div class="dc-second left">
+					<p>
+						What Client's Say
+					</p>
+					<div >
+						<p>This easy web design software comes with 1800+ awesome website blocks: image galleries, lightboxes, image sliders, bootstrap carousel, counters, countdowns, full-screen intros, features, data tables, pricing tables, progress bar, timelines, tabs, accordions, call-to-action, forms, maps, social blocks, testimonials, footers, and more... Free for commercial use.
+						</p>
+						<br>
+						<div class="clearfix">
+						
+							<i class='fas fa-atom left' style='font-size:36px'></i>
+
+							<span class="left" style="margin-left: 50px">
+								Archil Mzhavanadze,Company Inc
+							</span>
+						</div>
+					</div>
+				</div>
+
+		</div>
+
+
+
+		<!-- description end!!! -->
+
+
+	
+		<!-- footer beginning -->
+	<div>
+
+		<div class="footer">
+			<ul class="clearfix">
+				<li>
+					Avad<span style="color: green;">a  :</span>
+				</li>
+				<li>
+					Resent Posts
+				</li>
+				<li>
+					Twitter
+				</li>
+				<li>
+					Flicker
+				</li>
+			</ul>
+		</div>
+
+		<div class="end clearfix">
+			<ul>
+				<li>
+					Copyright 2020 Avada
+				</li>
+				<li>
+					All Rights REceved
+				</li>
+				<li>
+					Powerd By world press
+				</li>
+				<li>
+					Theme FUsion
+				</li>
+			</ul>
+
+		</div>
+
+
+
+	</div>
+		<!-- footer end!!! -->
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+	
+</body>
+</html>

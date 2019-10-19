@@ -1,0 +1,103 @@
+.container{
+
+	width: 1000px;
+	margin: 0 auto;
+
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.left{
+	float: left;
+}
+.right {
+	float: right;
+}
+.nav-menu{
+	font-size: 15px;
+
+}
+.nav-menu li  {
+	margin: 35px 10px 10px 30px ;
+}	
+.nav-menu li a {
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+}
+.nav-menu li a:hover {
+  background-color: purple;
+}
+.active {
+  background-color: #4CAF50;
+}
+.center {
+	margin-top: 25px;
+	text-align: center;
+}
+.center div{
+	margin: 0px 25px 25px 35px;
+	display: inline-block;
+}
+.center p{
+	display: inline-block;
+	width: 250px;
+}
+.rwimg a img {
+	height: 220px;
+	width: 220px;
+}
+.rwimg{
+	text-align: center;
+}
+.rwimg a {
+	display: inline;
+	margin: 15px;
+}
+.dscp-clear div{
+	width: 500px;
+	display: inline-block;
+}
+.dscp-clear div p {
+	font-size: 20px;
+}
+.dc-first ul li {
+	margin: 15px 0 15px 0;
+}
+.dc-first ul li a {
+	text-decoration: none;
+	padding: 7px;	
+}
+.dc-first ul li a:hover {
+background-color: green;	
+}
+
+	
+.dc-second div p{
+	font-size: 15px;
+background-color: gray;
+	padding: 23px;
+}
+.footer	{
+	background-color: #535252;
+
+
+}
+.footer ul li {
+	font-size: 25px;
+	float: left;
+	padding: 20px;
+	margin: 0 30px 10px 50px;
+	color: white;
+}
+.end {
+		background-color: black;
+		padding:15px;
+	}
+.end ul li {
+	float:left;
+	color: white;
+	margin:15px;
+}
